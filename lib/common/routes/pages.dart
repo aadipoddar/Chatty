@@ -4,6 +4,7 @@ import 'package:chatty/common/middlewares/middlewares.dart';
 
 import 'package:get/get.dart';
 
+import '../../pages/message/index.dart';
 import 'routes.dart';
 
 class AppPages {
@@ -49,14 +50,14 @@ class AppPages {
     */
 
     // Message Page
-    // GetPage(
-    //   name: AppRoutes.Message,
-    //   page: () => MessagePage(),
-    //   binding: MessageBinding(),
-    //   middlewares: [
-    //     RouteAuthMiddleware(priority: 1),
-    //   ],
-    // ),
+    GetPage(
+      name: AppRoutes.Message,
+      page: () => MessagePage(),
+      binding: MessageBinding(),
+      middlewares: [
+        RouteAuthMiddleware(priority: 1),
+      ],
+    ),
 
     /*
     //我的
