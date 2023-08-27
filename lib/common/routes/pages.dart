@@ -1,4 +1,5 @@
 import 'package:chatty/pages/frame/welcome/index.dart';
+import 'package:chatty/pages/profile/index.dart';
 import 'package:flutter/material.dart';
 import 'package:chatty/common/middlewares/middlewares.dart';
 
@@ -60,9 +61,10 @@ class AppPages {
       ],
     ),
 
-    /*
-    //我的
+    // Profile Section
     GetPage(name: AppRoutes.Profile, page: () => ProfilePage(), binding: ProfileBinding()),
+
+    /*
     //聊天详情
     GetPage(name: AppRoutes.Chat, page: () => ChatPage(), binding: ChatBinding()),
 

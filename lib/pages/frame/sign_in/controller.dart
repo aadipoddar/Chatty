@@ -2,7 +2,6 @@ import 'package:chatty/common/entities/entities.dart';
 import 'package:chatty/common/routes/names.dart';
 import 'package:chatty/pages/frame/sign_in/state.dart';
 import 'package:flutter/foundation.dart';
-import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 
